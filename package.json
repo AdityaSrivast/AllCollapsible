@@ -14,7 +14,7 @@
     "npm-collapsible"
   ],
   "author": "Aditya Srivastava <yashsri421@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AdityaSrivast/Collapsible/issues"
   },

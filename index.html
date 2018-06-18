@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
+	<script type="text/javascript" src="index.js"></script>
 	<title>Collapsible</title>
 	<style type="text/css">
 		/*.box1{
@@ -40,7 +41,7 @@
 </head>
 <body style="font-family: courier">
 	<h2 style="text-align: center;">Collapsible Menu</h2>
-	<div class="box1">
+	<!-- <div class="box1">
 		<div class="box">
 			<input type="button" name="b1" id="b1" value="First"><br>
 			<div class="para" id="para1"><span>This is Para 1</span></div>
@@ -49,7 +50,48 @@
 			<input type="button" name="b3" id="b3" value="Third"><br>
 			<div class="para" id="para3"><span>This is Para 3</span></div>
 		</div>
-	</div>
+	</div> -->
+	<!-- <ul class="collapsible-menu">
+		<li>
+			<input type="button" name="b1" id="b1" value="First"><br>
+			<div class="para" id="para1"><span>This is Para 1/span></div>
+		</li>
+		<li>
+			<input type="button" name="b1" id="b1" value="First"><br>
+			<div class="para" id="para1"><span>This is Para 2</span></div>
+		</li>
+		<li>
+			<input type="button" name="b1" id="b1" value="First"><br>
+			<div class="para" id="para1"><span>This is Para 3</span></div>
+		</li>
+		<li>
+			<input type="button" name="b1" id="b1" value="First"><br>
+			<div class="para" id="para1"><span>This is Para 4</span></div>
+		</li>
+	</ul> -->
+	<ul class="collapsible">
+    <li>
+      <div class="collapsible-header">First</div>
+      <div class="collapsible-body" id="c1"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header">Second</div>
+      <div class="collapsible-body" id="c2"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header">Third</div>
+      <div class="collapsible-body" id="c3"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header">Fourth</div>
+      <div class="collapsible-body" id="c3"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header">Fifth</div>
+      <div class="collapsible-body" id="c3"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+  </ul>
+        
 	<!--<button>Click Me</button>-->
 	<script type="text/javascript">
 		$("#para1").hide();
