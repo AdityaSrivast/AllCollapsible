@@ -1,0 +1,16 @@
+.collapsible {
+	list-style-type: none;
+}
+
+.collapsible-header {
+	padding: 1.5%;
+	border: 1px solid #ddd;
+	/*border-bottom: 1px solid #ddd;*/
+	/*box-shadow: 1px 1px #999;*/
+
+	cursor: pointer;
+}
+.collapsible-body{
+	padding: 3%;
+	border: 1px solid #ddd;
+}
