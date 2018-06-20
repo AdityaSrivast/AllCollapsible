@@ -4,7 +4,7 @@
 	<title>Collapsible</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="collapsible.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
 	<script type="text/javascript" src="index.js"></script>
 	<style type="text/css">
@@ -42,43 +42,11 @@
 </head>
 <body style="font-family: courier">
 	<h2 style="text-align: center;">Collapsible Menu</h2>
-	<!-- <div class="box1">
-		<div class="box">
-			<input type="button" name="b1" id="b1" value="First"><br>
-			<div class="para" id="para1"><span>This is Para 1</span></div>
-			<input type="button" name="b2" id="b2" value="Second"><br>
-			<div class="para" id="para2"><span>This is Para 2</span></div>
-			<input type="button" name="b3" id="b3" value="Third"><br>
-			<div class="para" id="para3"><span>This is Para 3</span></div>
-		</div>
-	</div> -->
-	<!-- <ul class="collapsible-menu">
-		<li>
-			<input type="button" name="b1" id="b1" value="First"><br>
-			<div class="para" id="para1"><span>This is Para 1/span></div>
-		</li>
-		<li>
-			<input type="button" name="b1" id="b1" value="First"><br>
-			<div class="para" id="para1"><span>This is Para 2</span></div>
-		</li>
-		<li>
-			<input type="button" name="b1" id="b1" value="First"><br>
-			<div class="para" id="para1"><span>This is Para 3</span></div>
-		</li>
-		<li>
-			<input type="button" name="b1" id="b1" value="First"><br>
-			<div class="para" id="para1"><span>This is Para 4</span></div>
-		</li>
-	</ul> -->
-	<ul class="collapsible">
+	<h3 style="text-align: center;">Default</h3>
+	<ul class="collapsible extensible">
     <li>
-      <div class="collapsible-header">First</div>
-      <div class="collapsible-body" id="c1"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      <div class="collapsible-title">First</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -86,13 +54,24 @@
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
     </li>
     <li>
-      <div class="collapsible-header">Second</div>
-      <div class="collapsible-body" id="c2"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      <div class="collapsible-title">Second</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</span></div>
+    </li>
+    <li>
+      <div class="collapsible-title">Third</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      consequat.</span></div>
+    </li>
+</ul>
+<h3 style="text-align: center">Extensible</h3>
+<ul class="collapsible">
+    <li>
+      <div class="collapsible-title">First</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -100,48 +79,19 @@
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
     </li>
     <li>
-      <div class="collapsible-header">Third</div>
-      <div class="collapsible-body" id="c3"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      <div class="collapsible-title">Second</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</span></div>
     </li>
     <li>
-      <div class="collapsible-header">Fourth</div>
-      <div class="collapsible-body" id="c3"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      <div class="collapsible-title">Third</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
+      consequat.</span></div>
     </li>
-    <li>
-      <div class="collapsible-header">Fifth</div>
-      <div class="collapsible-body" id="c3"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
-    </li>
-  </ul>
+</ul>
         
 	<!--<button>Click Me</button>-->
 	<script type="text/javascript">

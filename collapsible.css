@@ -1,14 +1,15 @@
 .collapsible {
-	list-style-type: none;
+	list-style: none;
 }
 
-.collapsible-header {
-	padding: 1.5%;
+.collapsible-title {
+	padding: 1.4rem;
 	border: 1px solid #ddd;
+	margin-left: 0px;
 	cursor: pointer;
 }
 .collapsible-body{
-	padding: 3%;
+	padding: 4rem;
 	border: 1px solid #ddd;
 }
 .red {

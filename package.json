@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Collapsible Menu for interactive display of information",
   "main": "index.js",
+  "style": "collapsible.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +14,7 @@
   "keywords": [
     "npm-collapsible"
   ],
-  "author": "Aditya Srivastava <yashsri421@gmail.com>",
+  "author": "Aditya Srivastava <yashsri421@gmail.com>, Saurav Bhagat <sauravbhagat6969@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AdityaSrivast/Collapsible/issues"
