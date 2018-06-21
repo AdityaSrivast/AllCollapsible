@@ -7,40 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="collapsible.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
 	<script type="text/javascript" src="index.js"></script>
-	<style type="text/css">
-		/*.box1{
-			height: 500px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}*/
-		.box{
-			/*display: flex;*/
-			width: 60%;
-			margin: 0 auto;
-			/*text-align: center;*/
-			
-			/*justify-content: center;*/
-			/*align-items: center;*/
-		}
-		.para{
-			padding: 2rem;
-			display: block;
-			border-bottom-color: #ddd;
-			border-width: 1px;
-			border-right-color: #ddd;
-			border-left-color: #ddd;
-			border-style: solid;
-		}
-		input[type="button"]
-		{
-			width: 100%;
-			text-align: center;
-			padding: 1rem;
-		}
-	</style>
 </head>
-<body style="font-family: courier">
+<body>
 	<h2 style="text-align: center;">Collapsible Menu</h2>
 	<h3 style="text-align: center;">Default</h3>
 	<ul class="collapsible extensible">
@@ -66,7 +34,7 @@
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat.</span></div>
     </li>
-</ul>
+</ul><br>
 <h3 style="text-align: center">Extensible</h3>
 <ul class="collapsible">
     <li>
@@ -92,27 +60,5 @@
       consequat.</span></div>
     </li>
 </ul>
-        
-	<!--<button>Click Me</button>-->
-	<script type="text/javascript">
-		$("#para1").hide();
-		$("#para2").hide();
-		$("#para3").hide();
-		$("#b1").click(function(){
-			$("#para2").slideUp(300);
-			$("#para3").slideUp(300);
-			$("#para1").slideToggle(300);
-		});
-		$("#b2").click(function(){
-			$("#para1").slideUp(300);
-			$("#para3").slideUp(300);
-			$("#para2").slideToggle(300);
-		});
-		$("#b3").click(function(){
-			$("#para1").slideUp(300);
-			$("#para2").slideUp(300);
-			$("#para3").slideToggle(300);
-		});
-	</script>
 </body>
 </html>
