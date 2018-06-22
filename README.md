@@ -4,9 +4,7 @@ Using Jquery a collapsible menu is created.
 ## CDN:
 
 <pre>
-&lt;link href="https://cdn.rawgit.com/AdityaSrivast/af0d5c1a692c463d6755ba4efc95bda8/raw/88310692ab751ab0e1e0ad7db08c852eadcaf3f9/allcollapsible.css"&gt;
 
-&lt;script type="text/javascript" src="https://cdn.rawgit.com/AdityaSrivast/fad1ab36c76b51e5e717270d514178fc/raw/6186ae9604f57d94dbeae6f3ac0b1b3e4f949fc5/allcollapsible.js"&gt;&lt;/script&gt;
 </pre>
 
 ## USAGE:
@@ -46,3 +44,32 @@ Using Jquery a collapsible menu is created.
     &lt;/li&gt;
 &lt;/ul&gt;
 </pre>
+### Coloured Collapsible
+You can even beautify the title and body for the collapsible by adding colours to it. The only thing you have to do is add a class to li.collapsible-title and(or) li.collapsible-body. There are total 178 shades available as of now.
+For Example:
+<pre>
+  &lt;ul class="collapsible"&gt;
+    &lt;li&gt;
+      &lt;div class="collapsible-title teal"&gt;First&lt;/div&gt;
+      &lt;div class="collapsible-body teal-lighten-3"&gt;&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;div class="collapsible-title red"&gt;Second&lt;/div&gt;
+      &lt;div class="collapsible-body red-lighten-2"&gt;&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;div class="collapsible-title light-blue"&gt;Third&lt;/div&gt;
+      &lt;div class="collapsible-body light-blue-lighten-3"&gt;&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;div class="collapsible-title indigo"&gt;Third&lt;/div&gt;
+      &lt;div class="collapsible-body indigo-lighten-2"&gt;&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;div class="collapsible-title pink"&gt;Third&lt;/div&gt;
+      &lt;div class="collapsible-body pink-lighten-3"&gt;&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;&lt;/div&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+
+The colours available are: red, pink, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange, available in 10 shades of each, viz., base-color,  color-lighten-1, color-lighten-2, color-lighten-3, color-lighten-4, color-lighten-5, color-accent-1, color-accent-2, color-accent-3, color-accent-4. In addition, colours, brown, grey, blue-grey are also available, with 6 six shades each, viz., base-color, color-lighten-1, color-lighten-2, color-lighten-3, color-lighten-4, color-lighten-5.
