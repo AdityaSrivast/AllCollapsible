@@ -58,17 +58,6 @@ For Example:
       &lt;div class="collapsible-body red-lighten-2"&gt;&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;&lt;/div&gt;
     &lt;/li&gt;
     &lt;li&gt;
-      &lt;div class="collapsible-title light-blue"&gt;Third&lt;/div&gt;
-      &lt;div class="collapsible-body light-blue-lighten-3"&gt;&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;&lt;/div&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-      &lt;div class="collapsible-title indigo"&gt;Third&lt;/div&gt;
-      &lt;div class="collapsible-body indigo-lighten-2"&gt;&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;&lt;/div&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-      &lt;div class="collapsible-title pink"&gt;Third&lt;/div&gt;
-      &lt;div class="collapsible-body pink-lighten-3"&gt;&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;&lt;/div&gt;
-    &lt;/li&gt;
 &lt;/ul&gt;
 </pre>
 
