@@ -107,4 +107,4 @@ The colours available are: red, pink, purple, deep-purple, indigo, blue, light-b
 
 ## BUGS
 For any bugs or issue:
-https://github.com/AdityaSrivast/Collapsible/issues
+https://github.com/AdityaSrivast/AllCollapsible/issues
