@@ -6,7 +6,7 @@ https://adityasrivast.github.io/AllCollapsible/example.html
 
 ## CDN:
 
-Just add the link to the files in <pre>&lt;head&gt;</pre>
+Just add the link to the files in your <xmp><head></xmp>
 <pre>
   &lt;!--Minified css file--&gt;
   &lt;link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/adityasrivast/AllCollapsible@1.0.0/allcollapsible.min.css"&gt;
@@ -14,7 +14,7 @@ Just add the link to the files in <pre>&lt;head&gt;</pre>
   &lt;script type="text/javascript" src="https://cdn.jsdelivr.net/gh/adityasrivast/AllCollapsible@1.0.0/allcollapsible.min.js"&gt;&lt;/script&gt;
 </pre>
 
-Apart from these don't forget to add cdn for jquery before <pre>&lt;script&gt;</pre> for js file.
+Apart from these don't forget to add cdn for jquery before script tag for js file.
 
 <pre>
   &lt;script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3/dist/jquery.min.js"&gt; &lt;/script&gt;
