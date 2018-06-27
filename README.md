@@ -44,6 +44,45 @@ Using Jquery a collapsible menu is created.
     &lt;/li&gt;
 &lt;/ul&gt;
 </pre>
+
+### Collapsible With Arrows
+
+#### Default
+<pre>
+  &lt;ul class="collapsible with-arrow"&gt;
+    &lt;li&gt;
+      &lt;div class="collapsible-title"&gt;First&lt;/div&gt;
+      &lt;div class="collapsible-body"&gt;&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;div class="collapsible-title"&gt;Second&lt;/div&gt;
+      &lt;div class="collapsible-body"&gt;&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;div class="collapsible-title"&gt;Third&lt;/div&gt;
+      &lt;div class="collapsible-body"&gt;&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;&lt;/div&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+
+#### Extensible
+<pre>
+  &lt;ul class="collapsible extensible with-arrow"&gt;
+    &lt;li&gt;
+      &lt;div class="collapsible-title"&gt;First&lt;/div&gt;
+      &lt;div class="collapsible-body"&gt;&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;div class="collapsible-title"&gt;Second&lt;/div&gt;
+      &lt;div class="collapsible-body"&gt;&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;div class="collapsible-title"&gt;Third&lt;/div&gt;
+      &lt;div class="collapsible-body"&gt;&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;&lt;/div&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+
 ### Coloured Collapsible
 You can even beautify the title and body for the collapsible by adding colours to it. The only thing you have to do is add a class to li.collapsible-title and(or) li.collapsible-body. There are total 178 shades available as of now.
 For Example:
