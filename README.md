@@ -2,7 +2,7 @@
 Collapsible for developers
 
 ## DEMO:
-https://adityasrivast.github.io/allcollapsible/example.html
+https://adityasrivast.github.io/AllCollapsible/example.html
 
 ## CDN:
 

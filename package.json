@@ -1,15 +1,15 @@
 {
-  "name": "collapsible",
+  "name": "allcollapsible",
   "version": "1.0.0",
   "description": "Collapsible Menu for interactive display of information",
-  "main": "index.js",
-  "style": "collapsible.css",
+  "main": "allcollapsible.js",
+  "style": "allcollapsible.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AdityaSrivast/Collapsible.git"
+    "url": "git+https://github.com/AdityaSrivast/AllCollapsible.git"
   },
   "keywords": [
     "npm-collapsible"
@@ -17,7 +17,7 @@
   "author": "Aditya Srivastava <yashsri421@gmail.com>, Saurav Bhagat <sauravbhagat6969@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AdityaSrivast/Collapsible/issues"
+    "url": "https://github.com/AdityaSrivast/AllCollapsible/issues"
   },
-  "homepage": "https://github.com/AdityaSrivast/Collapsible#readme"
+  "homepage": "https://github.com/AdityaSrivast/AllCollapsible#readme"
 }
