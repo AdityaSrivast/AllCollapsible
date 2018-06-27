@@ -6,7 +6,7 @@ https://adityasrivast.github.io/AllCollapsible/example.html
 
 ## CDN:
 
-Just add the link to the files in your <xmp><head></xmp>
+Just add the link to the files in your head tag.
 <pre>
   &lt;!--Minified css file--&gt;
   &lt;link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/adityasrivast/AllCollapsible@1.0.0/allcollapsible.min.css"&gt;
