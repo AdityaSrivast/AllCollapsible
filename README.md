@@ -1,5 +1,8 @@
-# ALLCOLLAPSIBLE
-Using Jquery a collapsible menu is created.
+# AllCollapsible
+Collapsible for developers
+
+## DEMO:
+https://adityasrivast.github.io/allcollapsible/example.html
 
 ## CDN:
 
@@ -101,3 +104,7 @@ For Example:
 </pre>
 
 The colours available are: red, pink, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange, available in 10 shades of each, viz., base-color,  color-lighten-1, color-lighten-2, color-lighten-3, color-lighten-4, color-lighten-5, color-accent-1, color-accent-2, color-accent-3, color-accent-4. In addition, colours, brown, grey, blue-grey are also available, with 6 six shades each, viz., base-color, color-lighten-1, color-lighten-2, color-lighten-3, color-lighten-4, color-lighten-5.
+
+## BUGS
+For any bugs or issue:
+https://github.com/AdityaSrivast/Collapsible/issues

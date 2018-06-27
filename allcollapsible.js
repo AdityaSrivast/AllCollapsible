@@ -1,3 +1,7 @@
+/*MIT License
+
+Copyright (c) 2018 Aditya Srivastava*/
+
 $(document).ready(function(){
 	$(".collapsible-body").hide();
 	$(".with-arrow").find(".collapsible-title").prepend("<i class='right-arrow'></i>");
