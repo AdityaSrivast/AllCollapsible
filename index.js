@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$(".collapsible-body").hide();
-	$(".collapsible-title").prepend("<i class='right-arrow'></i>");
+	$(".with-arrow").find(".collapsible-title").prepend("<i class='right-arrow'></i>");
 	$(".collapsible-title").click(function(){
 		if($(this).closest('.extensible').length == 0) {
 			$(".collapsible-body").not($(this).siblings()).slideUp(300);
