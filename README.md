@@ -6,8 +6,18 @@ https://adityasrivast.github.io/AllCollapsible/example.html
 
 ## CDN:
 
+Just add the link to the files in <pre>&lt;head&gt;</pre>
 <pre>
+  &lt;!--Minified css file--&gt;
+  &lt;link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/adityasrivast/AllCollapsible@1.0.0/allcollapsible.min.css"&gt;
+  &lt;!--Minified js file--&gt;
+  &lt;script type="text/javascript" src="https://cdn.jsdelivr.net/gh/adityasrivast/AllCollapsible@1.0.0/allcollapsible.min.js"&gt;&lt;/script&gt;
+</pre>
 
+Apart from these don't forget to add cdn for jquery before <pre>&lt;script&gt;</pre> for js file.
+
+<pre>
+  &lt;script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3/dist/jquery.min.js"&gt; &lt;/script&gt;
 </pre>
 
 ## USAGE:
@@ -105,6 +115,12 @@ For Example:
 
 The colours available are: red, pink, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange, available in 10 shades of each, viz., base-color,  color-lighten-1, color-lighten-2, color-lighten-3, color-lighten-4, color-lighten-5, color-accent-1, color-accent-2, color-accent-3, color-accent-4. In addition, colours, brown, grey, blue-grey are also available, with 6 six shades each, viz., base-color, color-lighten-1, color-lighten-2, color-lighten-3, color-lighten-4, color-lighten-5.
 
-## BUGS
+### BUGS
 For any bugs or issue:
 https://github.com/AdityaSrivast/AllCollapsible/issues
+
+You may also mail at:
+adityasrivast.acm.org
+
+### DEPENDENCIES
+JQuery
