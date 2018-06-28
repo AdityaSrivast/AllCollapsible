@@ -1,7 +1,9 @@
 # AllCollapsible
 Collapsible for developers
 
-## DEMO:
+[![](https://data.jsdelivr.com/v1/package/gh/adityasrivast/allcollapsible/badge)](https://www.jsdelivr.com/package/gh/adityasrivast/allcollapsible)
+
+### DEMO:
 https://adityasrivast.github.io/AllCollapsible/demo/example.html
 
 ## CDN:
@@ -17,7 +19,7 @@ Just add the link to the files in your head tag.
 Apart from these don't forget to add cdn for jquery before script tag for js file.
 
 <pre>
-  &lt;script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3/dist/jquery.min.js"&gt; &lt;/script&gt;
+  &lt;script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3/dist/jquery.min.js"&gt;&lt;/script&gt;
 </pre>
 
 ## USAGE:
@@ -123,4 +125,4 @@ You may also mail at:
 adityasrivast.acm.org
 
 ### DEPENDENCIES
-JQuery
+JQuery 1 or higher
