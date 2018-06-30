@@ -8,7 +8,7 @@ https://adityasrivast.github.io/AllCollapsible/demo/example.html
 
 ## CDN:
 
-Just add the link to the files in your head tag.
+Just add the link to the files in your \<head> tag.
 <pre>
   &lt;!--Minified css file--&gt;
   &lt;link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/adityasrivast/AllCollapsible@1.0.0/allcollapsible.min.css"&gt;
@@ -16,7 +16,7 @@ Just add the link to the files in your head tag.
   &lt;script type="text/javascript" src="https://cdn.jsdelivr.net/gh/adityasrivast/AllCollapsible@1.0.0/allcollapsible.min.js"&gt;&lt;/script&gt;
 </pre>
 
-Apart from these don't forget to add cdn for jquery before script tag for js file.
+Apart from these don't forget to add cdn for jquery before \<script> tag for js file.
 
 <pre>
   &lt;script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3/dist/jquery.min.js"&gt;&lt;/script&gt;
@@ -99,7 +99,7 @@ Apart from these don't forget to add cdn for jquery before script tag for js fil
 </pre>
 
 ### Coloured Collapsible
-You can even beautify the title and body for the collapsible by adding colours to it. The only thing you have to do is add a class to li.collapsible-title and(or) li.collapsible-body. There are total 178 shades available as of now.
+You can even beautify the title and body for the collapsible by adding colours to it. The only thing you have to do is add a class to \<div class="collapsible-title"> and(or) \<div class="collapsible-body">. There are total 178 shades available as of now.
 For Example:
 <pre>
   &lt;ul class="collapsible"&gt;
@@ -115,14 +115,20 @@ For Example:
 &lt;/ul&gt;
 </pre>
 
-The colours available are: red, pink, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange, available in 10 shades of each, viz., base-color,  color-lighten-1, color-lighten-2, color-lighten-3, color-lighten-4, color-lighten-5, color-accent-1, color-accent-2, color-accent-3, color-accent-4. In addition, colours, brown, grey, blue-grey are also available, with 6 six shades each, viz., base-color, color-lighten-1, color-lighten-2, color-lighten-3, color-lighten-4, color-lighten-5.
+The colours available are: red, pink, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange, available in 10 shades of each, viz., base-color, color-lighten-1, color-lighten-2, color-lighten-3, color-lighten-4, color-lighten-5, color-accent-1, color-accent-2, color-accent-3, color-accent-4. In addition, colours, brown, grey, blue-grey are also available, with 6 six shades each, viz., base-color, color-lighten-1, color-lighten-2, color-lighten-3, color-lighten-4, color-lighten-5.
 
 ### BUGS
-For any bugs or issue:
+For any bugs or issue, report at:
 https://github.com/AdityaSrivast/AllCollapsible/issues
 
 You may also mail at:
-adityasrivast.acm.org
+adityasrivast@acm.org
 
 ### DEPENDENCIES
-JQuery 1 or higher
+JQuery 1.4 or higher
+
+### LICENSE
+
+MIT License
+
+Copyright (c) 2018 Aditya Srivastava
