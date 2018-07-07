@@ -1,9 +1,9 @@
 {
   "name": "allcollapsible",
-  "version": "1.0.0",
-  "description": "Collapsible Menu for interactive display of information",
-  "main": "allcollapsible.js",
-  "style": "allcollapsible.css",
+  "version": "1.1.0",
+  "description": "one collapsible for all",
+  "main": "dist/js/allcollapsible.js",
+  "style": "dist/css/allcollapsible.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +15,7 @@
     "collapsible",
     "collapsible-extensible",
     "collapsible-with-arrow",
+    "front-end",
     "menu"
   ],
   "author": "Aditya Srivastava <yashsri421@gmail.com>, Saurav Bhagat <sauravbhagat6969@gmail.com>",
@@ -25,5 +26,10 @@
   "peerDependencies": {
     "jquery": ">=1.4"
   },
-  "homepage": "https://github.com/AdityaSrivast/AllCollapsible#readme"
+  "homepage": "https://github.com/AdityaSrivast/AllCollapsible#readme",
+  "files": [
+    "dist/js/*.js",
+    "dist/css/*.css",
+    "LICENSE.md"
+  ]
 }

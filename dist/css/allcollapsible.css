@@ -16,6 +16,19 @@ Copyright (c) 2018 Aditya Srivastava*/
 	padding: 2rem;
 	border: 1px solid #ddd;
 }
+.fadein {
+	opacity: .9;
+	transition: .2s ease-out;
+}
+.fadein:hover {
+	opacity: 1;
+}
+.fadeout {
+	transition: .2s ease-in;
+}
+.fadeout:hover {
+	opacity: .9;
+}
 .right-arrow {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
@@ -23,7 +36,7 @@ Copyright (c) 2018 Aditya Srivastava*/
     border-width: 0 3px 3px 0;
   	display: inline-block;
   	padding: 3px;
-  	margin-right: 2rem;
+  	margin-right: 1rem;
   	vertical-align: middle;
 }
 .down-arrow {
@@ -33,8 +46,86 @@ Copyright (c) 2018 Aditya Srivastava*/
     border-width: 0 3px 3px 0;
   	display: inline-block;
   	padding: 3px;
-  	margin-right: 2rem;
+  	margin-right: 1rem;
   	float: left;
+}
+.plus:after {
+	content: '\02795';
+    color: #000;
+    font-weight: bold;
+    float: right;
+    margin-left: 2rem;
+}
+.plus.active:after {
+	content: '\2796';
+}
+.vertical-bar:before{
+	content:'\0275A';
+	color: #000;
+    font-weight: bold;
+    float: left;
+    margin-right: 1rem;
+    transition: .2s;
+}
+.vertical-bar.active:before {
+	content: '\02759';
+}
+.star:before {
+	content: '\02726';
+    color: #000;
+    font-weight: bold;
+    float: left;
+    margin-right: 1rem;
+}
+.star.active:before{
+	content: '\02727';
+}
+.pencil:before {
+	content: '\0270E';
+    color: #000;
+    float: left;
+    margin-right: 1rem;
+}
+.pencil.active:before {
+	content: '\0270F';
+}
+.bullets:before {
+	content: '\026AB';
+    color: #000;
+    float: left;
+    margin-right: 1rem;
+}
+.bullets.active:before {
+	content: '\026AA';
+}
+.direction-pointer:before {
+	content: '\0261E';
+    color: #000;
+    font-weight: bold;
+    float: left;
+    margin-right: 1rem;
+}
+.direction-pointer.active:before {
+	content: '\0261F';
+}
+.caret:before {
+	content: '\025BA';
+    color: #000;
+    float: left;
+    margin-right: 1rem;
+}
+.caret.active:before {
+	content: '\025BC';
+}
+.caret-right:after {
+	content: '\025BC';
+	font-weight: bold;
+    color: #000;
+    float: right;
+    margin-left: 1rem;
+}
+.caret-right.active:after {
+	content: '\025B2';
 }
 .red {
 	background-color: #f44336;
@@ -752,5 +843,14 @@ Copyright (c) 2018 Aditya Srivastava*/
 {
 html {
 font-size: 14px;
+}
+}
+@media only screen and (max-width: 800px)
+{
+.plus:after {
+	content: '\002B';
+}
+.plus.active:after {
+	content: '\2212';
 }
 }
