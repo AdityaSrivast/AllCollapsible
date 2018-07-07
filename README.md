@@ -21,9 +21,9 @@ https://adityasrivast.github.io/AllCollapsible/demo/example.html
 Just add the link to the files in your `<head>` tag.
 ```html
   <!--Minified css file-->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/adityasrivast/AllCollapsible@1.0.0/allcollapsible.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/adityasrivast/AllCollapsible@1.1.0/dist/css/allcollapsible.min.css">
   <!--Minified js file-->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/adityasrivast/AllCollapsible@1.0.0/allcollapsible.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/adityasrivast/AllCollapsible@1.1.0/dist/js/allcollapsible.min.js"></script>
 ```
 
 Apart from these don't forget to add cdn for jquery before `<script>` tag for js file.
