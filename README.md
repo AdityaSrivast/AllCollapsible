@@ -141,7 +141,7 @@ For any bugs or issue, report at:
 https://github.com/AdityaSrivast/AllCollapsible/issues
 
 You may also mail at:
-adityasrivast@acm.org
+[adityasrivast.dev@gmail.com](mailto:adityasrivast.dev@gmail.com)
 
 ### DEPENDENCIES
 JQuery 1.4 or higher
